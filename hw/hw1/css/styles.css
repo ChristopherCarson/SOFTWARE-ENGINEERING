@@ -1,7 +1,6 @@
 
 body{
-    background-image: url("https://vfs-gce-usw-356-4.c9.io/vfs/6204689/9cIV5LML1dec349k/workspace/cst336/hw/hw1/img/rainbow.gif");
-    background-size: cover;
+    background-color: black; 
 }
 
 header, nav, footer {
