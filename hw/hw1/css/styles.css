@@ -50,11 +50,11 @@ ul {
 }
 
 .table-row {
-    background-color: black;
+    background-color: inherit;
 }
 
 td strong {
-    color: orange;
+    color: yellow;
 }
 
 .current{
@@ -67,9 +67,10 @@ nav a:hover { /*pseudo class*/
     transition: .9s;  /*transition effect*/
 }
 
-#brain, #welcomeText {
-    float: left;
+#maintext {
+    text-align: left;
 }
+
 
 #uglytext {
     font-size: 1.1em;
