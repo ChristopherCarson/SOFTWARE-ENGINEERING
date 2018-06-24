@@ -13,21 +13,11 @@ in html
 <!-- All styles and javascript go inside the head -->
     <head>
         <meta charset="utf-8" />
-        
         <title> Chris Carson: Personal Website</title>
-        <style>
-            body{
-                text-align: center;
-            }
-            
-            hr {
-                width: 50%;
-            }
-        </style>
-        
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     </head>
 <!-- closing head -->
-
     <!-- This is the body -->
     <!-- This is where we place the content of our website -->
     <body>
@@ -36,36 +26,38 @@ in html
         </header>
         <hr/>
         <nav>
-            <a href="index.html">Home</a>
+            <a class="current" href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
-        
         <main>
-            <figure>
-                
-                <img src="img/juan_doe.png" alt="Image of Juan Doe" width="300">
-                
+            <figure id="me">
+                <img id="me_and_wife" src="img/WIFE_AND_I.jpg" alt="Image of me and my wife" width="500">
             </figure>
             
-            <div>
+            <div id="welcomeText">
+                <br /><br /><br /><br />
                 You know you love this site.
                 <p>
-                    Deal with it.
+                    I do too.
                 </p>
-            </div>
-            
+                <em>You are not measured by what you start, <br />but by what you <strong>FINISH.</strong></em>
+                <br /><br />
+                </div>
         </main>
-  
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
-            
-            
+            <hr>
+                336 Internet Programming. 2018&copy; Carson <br />
+                <strong>Disclaimer:</strong>The information in this website is fictitous. <br />
+                It is used for academic greatness only.<br />
+                
+                <figure id="logo">
+                    <img src="img/CSUMB.png" alt="CSUMB logo" width="75">
+                </figure>
         </footer>
         <!-- closing footer -->
-        
     </body>
     <!-- closing body -->
-
 </html>

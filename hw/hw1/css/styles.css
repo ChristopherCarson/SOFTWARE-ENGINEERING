@@ -1,0 +1,103 @@
+
+body{
+    background-image: url("https://vfs-gce-usw-356-4.c9.io/vfs/6204689/9cIV5LML1dec349k/workspace/cst336/hw/hw1/img/rainbow.gif");
+    background-size: cover;
+}
+
+header, nav, footer {
+    text-align: center;
+    color: #00ffff;
+}
+
+main {
+    text-align: center;
+    color: white;
+}
+
+
+.content {
+    margin: auto;
+    text-align: center;
+    color:white;
+    font-size: 1.5em;
+}
+
+
+nav a { /*link within 'nav' container*/
+    padding: 15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /*removes underline*/
+    color: white; /*by default, links are blue*/
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.1em;
+}
+
+ul {
+    text-align: left;
+    padding-left: 400px;
+}
+
+.hobby {
+    color: yellow;
+}
+
+.table-row {
+    background-color: black;
+}
+
+td strong {
+    color: orange;
+}
+
+.current{
+   background:#00ffff;
+}
+
+nav a:hover { /*pseudo class*/
+    border-bottom:2px blue solid;
+    font-size: 2em;
+    transition: .9s;  /*transition effect*/
+}
+
+#brain, #welcomeText {
+    float: left;
+}
+
+#uglytext {
+    font-size: 1.1em;
+}
+
+#welcomeText {
+   text-align: left;
+   font-size: 1.5em;
+}
+
+footer {
+    clear: left;
+    font-size: large;
+    color: #00ffff;
+}
+
+h1 {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+#brain {
+  border-radius: 50%;
+}
+
+#thinking {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}

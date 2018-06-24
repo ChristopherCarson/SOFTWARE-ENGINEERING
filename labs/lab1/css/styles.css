@@ -1,0 +1,87 @@
+body {
+    background-color:#3C8EAB;
+    color:#CA95DB;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+.content {
+    margin: auto;
+    text-align: center;
+}
+
+
+nav a { /*link within 'nav' container*/
+    padding: 15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /*removes underline*/
+    color: white; /*by default, links are blue*/
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+ul {
+    text-align: left;
+    padding-left: 400px;
+}
+
+.hobby {
+    color: yellow;
+}
+
+#table-header {
+    background-color: #33543E;
+}
+
+.table-row {
+    background-color: #258041;
+}
+
+td strong {
+    color: orange;
+}
+
+.current{
+   background:#eeccff;
+}
+
+nav a:hover { /*pseudo class*/
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s;  /*transition effect*/
+}
+
+#me, #welcomeText {
+    float: left;
+}
+
+#welcomeText {
+   text-align: left;
+   font-size: 1.6em;
+}
+
+footer {
+    clear: left;
+    font-size: large;
+    color: #eeccff;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+#me_and_wife {
+  border-radius: 80%;
+}
