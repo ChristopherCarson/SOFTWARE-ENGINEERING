@@ -1,6 +1,7 @@
 
 body{
-    background-color: black; 
+    background-image: url("https://docs.google.com/drawings/d/e/2PACX-1vTdZ_pIg7jOqjl7AU94cL9Ekv0HpyYPXogq9Uj9MlW7w48Q__MYi0Ixqm7dnhgg65kXgVnWNvTMMdKS/pub?w=1392&h=871");
+    background-size: cover;
 }
 
 header, nav, footer {
