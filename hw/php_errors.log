@@ -1,0 +1,73 @@
+[28-Jun-2018 00:58:15 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 16
+[28-Jun-2018 00:58:15 UTC] PHP Stack trace:
+[28-Jun-2018 00:58:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 00:58:15 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 00:58:15 UTC] PHP   3. array_key_exists() /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php:16
+[28-Jun-2018 01:59:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 23
+[28-Jun-2018 01:59:25 UTC] PHP Stack trace:
+[28-Jun-2018 01:59:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 01:59:25 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 01:59:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 23
+[28-Jun-2018 01:59:27 UTC] PHP Stack trace:
+[28-Jun-2018 01:59:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 01:59:27 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:00:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 7
+[28-Jun-2018 02:00:14 UTC] PHP Stack trace:
+[28-Jun-2018 02:00:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:00:14 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:00:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 27
+[28-Jun-2018 02:00:14 UTC] PHP Stack trace:
+[28-Jun-2018 02:00:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:00:14 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:00:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 25
+[28-Jun-2018 02:00:43 UTC] PHP Stack trace:
+[28-Jun-2018 02:00:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:00:43 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:01:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 25
+[28-Jun-2018 02:01:26 UTC] PHP Stack trace:
+[28-Jun-2018 02:01:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:01:26 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:02:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 25
+[28-Jun-2018 02:02:47 UTC] PHP Stack trace:
+[28-Jun-2018 02:02:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:02:47 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:02:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 25
+[28-Jun-2018 02:02:49 UTC] PHP Stack trace:
+[28-Jun-2018 02:02:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:02:49 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:02:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 25
+[28-Jun-2018 02:02:50 UTC] PHP Stack trace:
+[28-Jun-2018 02:02:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:02:50 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:02:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 25
+[28-Jun-2018 02:02:51 UTC] PHP Stack trace:
+[28-Jun-2018 02:02:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:02:51 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:02:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 25
+[28-Jun-2018 02:02:51 UTC] PHP Stack trace:
+[28-Jun-2018 02:02:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:02:51 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:02:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 25
+[28-Jun-2018 02:02:52 UTC] PHP Stack trace:
+[28-Jun-2018 02:02:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:02:52 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:02:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 25
+[28-Jun-2018 02:02:53 UTC] PHP Stack trace:
+[28-Jun-2018 02:02:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:02:53 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:02:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 25
+[28-Jun-2018 02:02:54 UTC] PHP Stack trace:
+[28-Jun-2018 02:02:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:02:54 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:02:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 25
+[28-Jun-2018 02:02:55 UTC] PHP Stack trace:
+[28-Jun-2018 02:02:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:02:55 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:02:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 25
+[28-Jun-2018 02:02:56 UTC] PHP Stack trace:
+[28-Jun-2018 02:02:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:02:56 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
+[28-Jun-2018 02:02:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 25
+[28-Jun-2018 02:02:57 UTC] PHP Stack trace:
+[28-Jun-2018 02:02:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[28-Jun-2018 02:02:57 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/hw/hw2/index.php:23
