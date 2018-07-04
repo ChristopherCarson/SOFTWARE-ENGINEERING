@@ -1,0 +1,46 @@
+body{
+	background-image:url("../img/music-background.jpg");
+    width: 100%;
+	background-position: right;
+	background-repeat: repeat-y;
+}
+
+header{
+	text-align: center;
+	font-family: 'Wendy One', sans-serif;
+	font-size: 40px;
+}
+
+form{
+	color: black;
+	text-align: left;
+	font-size: 20px;
+	margin: auto;
+	width: 700px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error {
+    color: red;
+    font-size:.8em;
+}
+
+#response {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size:.8em;
+    width:600px;
+    margin:0 auto;
+    padding-top:10px;
+    text-align:center;
+}
