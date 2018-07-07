@@ -1,3 +1,7 @@
+    <?php
+        include 'functions.php';
+        ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,17 +14,13 @@
     </head>
     <body>
         <header> 
-            <h1> Are you ready to run? </h1>
+            <h1> Are you ready to run a marathon? </h1>
         </header>
         <div id="response">
     <?php
-        include 'functions.php';
-
-        if(isset($_GET)){
             echo "<div id=answer> ";
-            #tellMe();
+            tellMe();
             echo "</div>";
-         }
     ?>
         </div>
 		<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
@@ -30,32 +30,44 @@
 		<span class="error">Fields marked with * are mandatory.</span>
             <br/><br/>
             <label for="name">Name:</label>
-            <input id="name" type="text" name="name" value="<?=$_GET['name']?>">
+            <input id="name" type="text" name="name" value="<?php echo ($name);?>">
             <span class="error">* <?php echo $nameErr;?></span>
             
             <br/><br/>
                 <label for="gender">I am a:</label><br/>
-                <input type="radio" name="gender" value="male"> Male<br>
-                <input type="radio" name="gender" value="female"> Female<br>
-                <input type="radio" name="gender" value="other"> Other
-                <br/>
-                <span class="error">* <?php echo $genderErr;?></span>
+                <span class="error">* <?php echo $genderErr;?></span><br/>
+                <input type="radio" name="gender" value="male" <?php if($gender=='male'){echo 'checked="checked"';} ?>> Male<br>
+                <input type="radio" name="gender" value="female" <?php if($gender=='female'){echo 'checked="checked"';} ?>> Female<br>
+                <input type="radio" name="gender" value="other" <?php if($gender=='other'){echo 'checked="checked"';} ?>> Other
+            
             <br/><br/>
+                <label for="shoe">Do you own shoes?</label><br/>
+                <span class="error">* <?php echo $shoeErr;?></span><br/>
+                <input type="radio" name="shoe" value="yes" <?php if($shoe=='yes'){echo 'checked="checked"';} ?>> Yes<br>
+                <input type="radio" name="shoe" value="no" <?php if($shoe=='no'){echo 'checked="checked"';} ?>> Nope<br>
+                
+            <br/>
+                <label for="legs">Are you able to move your legs?</label><br/>
+                <span class="error">* <?php echo $legsErr;?></span><br/>
+                <input type="radio" name="legs" value="yes" <?php if($legs=='yes'){echo 'checked="checked"';} ?>> Yes<br>
+                <input type="radio" name="legs" value="no" <?php if($legs=='no'){echo 'checked="checked"';} ?>> Nope<br>
+                
+            <br/>
             
             <label for="howOften">How often do you exercise?</label>
             <select id="howOften" name="howOften">
-                <option value="day">Daily</option>
-                <option value="week">Weekly</option>
-                <option value="year">Yearly</option>
-                <option value="once">Once in my life</option>
+                <option value="" <?php if($howOften==''){echo 'selected';} ?>></option>
+                <option value="day"  <?php if($howOften=='day'){echo 'selected';} ?>>Daily</option>
+                <option value="week" <?php if($howOften=='week'){echo 'selected';} ?>>Weekly</option>
+                <option value="year" <?php if($howOften=='year'){echo 'selected';} ?>>Yearly</option>
+                <option value="once" <?php if($howOften=='once'){echo 'selected';} ?>>Once in my life</option>
             </select>
             <span class="error">* <?php echo $howOftenErr;?></span>
             
             <br/><br/>
-            <label for="number">What is the furthest you've ever ran?</label>
-            <input id="number" type="number" value="0">
+            <label for="number">What is the furthest you've ever ran in miles?</label>
+            <input id="number" type="number" name="number" value="<?php echo ($number);?>">
             <span class="error">* <?php echo $numberErr;?></span>
-            
             <br/><br/>
             <button type="submit" value="Submit">Submit</button>
         </form>
