@@ -33,9 +33,7 @@
             </nav>
         </div>
         <div>
-
         <br></br> 
-            
             <h1 class="text-center">Current Inventory</h1>
         <?php 
             echo "<br /><br />";

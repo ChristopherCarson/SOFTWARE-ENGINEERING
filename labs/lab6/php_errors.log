@@ -1,0 +1,15 @@
+[21-Jul-2018 22:31:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_95f57077cc03cf4.om_admin' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab6/php/loginProcess.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/php/loginProcess.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/php/loginProcess.php on line 17
+[21-Jul-2018 22:38:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_95f57077cc03cf4.om_admin' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab6/php/loginProcess.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/php/loginProcess.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/php/loginProcess.php on line 17
+[21-Jul-2018 22:46:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_95f57077cc03cf4.om_admin' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab6/php/loginProcess.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/php/loginProcess.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/php/loginProcess.php on line 17
