@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Pacman</title>
+		<link rel="stylesheet" type="text/css" href="pacman.css">
+		<script language="javascript" type="text/javascript" src="pacman.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	</head>
+	<body onload="loadComplete()">
+
+		<div id="gameWindow">
+			
+			<img id="pacman" src="images/pacman.gif">
+			<img id="redGhost" src="images/ghost_red.png">
+			<img id="blueGhost" src="images/ghost_blue.png">
+			<img id="greenGhost" src="images/ghost_green.png">
+
+		</div>
+		
+		<div id="output" style="color: white"><spn id="test"></spn></div>
+
+	</body>
+	
+				<script type="text/javascript">
+
+					
+				$("document").ready ( function() {
+    				$('img').css('width', '40px');
+    				$('img').css('height', '40px');
+    				$('img:eq(0)').css('left', '280');
+    				$('img:eq(0)').css('top', '240');
+    			    $('img:eq(1)').css('left', '280');
+    				$('img:eq(1)').css('top', '80');
+    				$('img:eq(2)').css('left', '200');
+    				$('img:eq(2)').css('top', '40');
+    				$('img:eq(3)').css('left', '400');
+    				$('img:eq(3)').css('top', '40');
+    				
+					var pacman = $('#pacman');
+					var redGhost = $('#redGhost');
+					var blueGhost = $('#blueGhost');
+					var pinkGhost = $('#pinkGhost');
+					var greenGhost = $('#greenGhost');
+					var gameWindow = $('#gameWindow')
+					var output = $('#output');
+    				
+				});
+
+				
+				
+			</script>
+</html>
