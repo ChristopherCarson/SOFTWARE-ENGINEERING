@@ -1,6 +1,6 @@
 <?php
 
-$name = $gender = $howOften = $number = $shoe = $legs = $number = "";
+$fullName = $gender = $howOften = $number = $shoe = $legs = $number = "";
 $nameErr = $genderErr = $howOftenErr = $numberErr = $shoeErr = $legsErr = $numberErr = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

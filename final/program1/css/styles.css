@@ -1,0 +1,14 @@
+.correct { /* For Correct Answers */
+    background-color: lightgreen;
+}
+ 
+.incorrect { /* For Incorrect Answers */
+    background-color: #F75D59;
+}
+
+#feedback {
+    margin: 0 auto;
+    text-align: center;
+    height: 100px;
+    vertical-align: baseline;
+}

@@ -1,0 +1,60 @@
+[05-Aug-2018 20:31:23 UTC] PHP Warning:  include(php/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php on line 5
+[05-Aug-2018 20:31:23 UTC] PHP Stack trace:
+[05-Aug-2018 20:31:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:0
+[05-Aug-2018 20:31:23 UTC] PHP Warning:  include(): Failed opening 'php/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php on line 5
+[05-Aug-2018 20:31:23 UTC] PHP Stack trace:
+[05-Aug-2018 20:31:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:0
+[05-Aug-2018 20:31:23 UTC] PHP Fatal error:  Call to undefined function selectAllShips() in /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php on line 25
+[05-Aug-2018 20:31:23 UTC] PHP Stack trace:
+[05-Aug-2018 20:31:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:0
+[05-Aug-2018 20:51:26 UTC] PHP Warning:  Missing argument 1 for searchInventory(), called in /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php on line 28 and defined in /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php on line 7
+[05-Aug-2018 20:51:26 UTC] PHP Stack trace:
+[05-Aug-2018 20:51:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:0
+[05-Aug-2018 20:51:26 UTC] PHP   2. searchInventory() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:28
+[05-Aug-2018 20:51:26 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php on line 41
+[05-Aug-2018 20:51:26 UTC] PHP Stack trace:
+[05-Aug-2018 20:51:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:0
+[05-Aug-2018 20:51:26 UTC] PHP   2. searchInventory() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:28
+[05-Aug-2018 20:52:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php on line 38
+[05-Aug-2018 20:52:36 UTC] PHP Stack trace:
+[05-Aug-2018 20:52:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:0
+[05-Aug-2018 20:52:36 UTC] PHP   2. searchInventory() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:31
+[05-Aug-2018 20:54:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php on line 32
+[05-Aug-2018 20:54:14 UTC] PHP Stack trace:
+[05-Aug-2018 20:54:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:0
+[05-Aug-2018 20:55:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php on line 32
+[05-Aug-2018 20:55:15 UTC] PHP Stack trace:
+[05-Aug-2018 20:55:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:0
+[05-Aug-2018 20:56:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php on line 33
+[05-Aug-2018 20:56:00 UTC] PHP Stack trace:
+[05-Aug-2018 20:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:0
+[05-Aug-2018 20:56:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php on line 33
+[05-Aug-2018 20:56:54 UTC] PHP Stack trace:
+[05-Aug-2018 20:56:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:0
+[05-Aug-2018 21:00:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php on line 32
+[05-Aug-2018 21:00:22 UTC] PHP Stack trace:
+[05-Aug-2018 21:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php:0
+[05-Aug-2018 21:05:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php(22): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php(32): searchInventory(Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php on line 22
+[05-Aug-2018 21:13:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php(42): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php(33): searchInventory(Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php on line 42
+[05-Aug-2018 21:16:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php(24): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php(33): searchInventory(Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php on line 24
+[05-Aug-2018 21:18:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php(36): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/final_project_testing/crudTestingIndex.php(33): searchInventory(Array)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/final_project_testing/php/php/functions.php on line 36
